@@ -1,0 +1,93 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    position: relative;
+    background-color: hsl(0, 17%, 91%);
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    
+    justify-content: space-between;
+
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .header-content {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .header-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .header-content img {
+    max-width: 100%;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 50px;
+  }
+  
+  section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Call to Action styles */
+  #cta {
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  #cta p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
